@@ -4,30 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Jump.xcscheme</key>
+		<key>Pods-Jump-CocoaAsyncSocket.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
-		<key>UniversalJump.xcscheme</key>
+		<key>Pods-Jump.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C971292B19B25EE800ED7616</key>
+		<key>41756C66562E4FB182F23F9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C971293B19B25EE800ED7616</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C97129A019B264C800ED7616</key>
+		<key>9F58B910761A4FD1AAA9B157</key>
 		<dict>
 			<key>primary</key>
 			<true/>

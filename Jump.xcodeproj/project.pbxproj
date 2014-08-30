@@ -6,9 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C97129A019B264C800ED7616 /* UniversalJump */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C97129A119B264C800ED7616 /* Build configuration list for PBXAggregateTarget "UniversalJump" */;
+			buildPhases = (
+				C97129A419B264CE00ED7616 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalJump;
+			productName = UniversalJump;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		2E78FF899591456DAF70318F /* libPods-Jump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97847D1248C94EE79122F6F8 /* libPods-Jump.a */; };
 		C971293019B25EE800ED7616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C971292F19B25EE800ED7616 /* Foundation.framework */; };
-		C971293519B25EE800ED7616 /* Jump.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C971293419B25EE800ED7616 /* Jump.h */; };
 		C971293719B25EE800ED7616 /* Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = C971293619B25EE800ED7616 /* Jump.m */; };
 		C971293E19B25EE800ED7616 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C971293D19B25EE800ED7616 /* XCTest.framework */; };
 		C971293F19B25EE800ED7616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C971292F19B25EE800ED7616 /* Foundation.framework */; };
@@ -16,6 +30,8 @@
 		C971294419B25EE800ED7616 /* libJump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C971292C19B25EE800ED7616 /* libJump.a */; };
 		C971294A19B25EE800ED7616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C971294819B25EE800ED7616 /* InfoPlist.strings */; };
 		C971294C19B25EE800ED7616 /* JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C971294B19B25EE800ED7616 /* JumpTests.m */; };
+		C9712A3F19B2790500ED7616 /* Jump.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C971293419B25EE800ED7616 /* Jump.h */; };
+		C98914AB19B27FB3000ADA4B /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = C98914AA19B27FB3000ADA4B /* LeapObjectiveC.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +51,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C971293519B25EE800ED7616 /* Jump.h in CopyFiles */,
+				C9712A3F19B2790500ED7616 /* Jump.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		97847D1248C94EE79122F6F8 /* libPods-Jump.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jump.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E2C5F3361A4E129D0A6A6F /* Pods-Jump.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jump.xcconfig"; path = "Pods/Pods-Jump.xcconfig"; sourceTree = "<group>"; };
 		C971292C19B25EE800ED7616 /* libJump.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJump.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C971292F19B25EE800ED7616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C971293319B25EE800ED7616 /* Jump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jump-Prefix.pch"; sourceTree = "<group>"; };
@@ -53,6 +71,10 @@
 		C971294719B25EE800ED7616 /* JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpTests-Info.plist"; sourceTree = "<group>"; };
 		C971294919B25EE800ED7616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C971294B19B25EE800ED7616 /* JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpTests.m; sourceTree = "<group>"; };
+		C98914A719B27FB3000ADA4B /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		C98914A819B27FB3000ADA4B /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		C98914A919B27FB3000ADA4B /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
+		C98914AA19B27FB3000ADA4B /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C971293019B25EE800ED7616 /* Foundation.framework in Frameworks */,
+				2E78FF899591456DAF70318F /* libPods-Jump.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,7 @@
 				C971294519B25EE800ED7616 /* JumpTests */,
 				C971292E19B25EE800ED7616 /* Frameworks */,
 				C971292D19B25EE800ED7616 /* Products */,
+				B9E2C5F3361A4E129D0A6A6F /* Pods-Jump.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +127,7 @@
 				C971292F19B25EE800ED7616 /* Foundation.framework */,
 				C971293D19B25EE800ED7616 /* XCTest.framework */,
 				C971294019B25EE800ED7616 /* UIKit.framework */,
+				97847D1248C94EE79122F6F8 /* libPods-Jump.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +137,7 @@
 			children = (
 				C971293419B25EE800ED7616 /* Jump.h */,
 				C971293619B25EE800ED7616 /* Jump.m */,
+				C98914A619B27FB3000ADA4B /* LeapObjC */,
 				C971293219B25EE800ED7616 /* Supporting Files */,
 			);
 			path = Jump;
@@ -143,6 +169,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C98914A619B27FB3000ADA4B /* LeapObjC */ = {
+			isa = PBXGroup;
+			children = (
+				C98914A719B27FB3000ADA4B /* Leap.h */,
+				C98914A819B27FB3000ADA4B /* LeapMath.h */,
+				C98914A919B27FB3000ADA4B /* LeapObjectiveC.h */,
+				C98914AA19B27FB3000ADA4B /* LeapObjectiveC.mm */,
+			);
+			path = LeapObjC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C971294F19B25EE800ED7616 /* Build configuration list for PBXNativeTarget "Jump" */;
 			buildPhases = (
+				3D9BC092B6C1473D9F7E2B34 /* Check Pods Manifest.lock */,
 				C971292819B25EE800ED7616 /* Sources */,
 				C971292919B25EE800ED7616 /* Frameworks */,
 				C971292A19B25EE800ED7616 /* CopyFiles */,
+				E5988FF6B56D4B2A9175AF77 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +243,7 @@
 			targets = (
 				C971292B19B25EE800ED7616 /* Jump */,
 				C971293B19B25EE800ED7616 /* JumpTests */,
+				C97129A019B264C800ED7616 /* UniversalJump */,
 			);
 		};
 /* End PBXProject section */
@@ -219,12 +259,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D9BC092B6C1473D9F7E2B34 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C97129A419B264CE00ED7616 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target Jump ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target Jump -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+		E5988FF6B56D4B2A9175AF77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Jump-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C971292819B25EE800ED7616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C971293719B25EE800ED7616 /* Jump.m in Sources */,
+				C98914AB19B27FB3000ADA4B /* LeapObjectiveC.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,11 +415,12 @@
 		};
 		C971295019B25EE800ED7616 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E2C5F3361A4E129D0A6A6F /* Pods-Jump.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Jump.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jump/Jump-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -340,11 +428,12 @@
 		};
 		C971295119B25EE800ED7616 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E2C5F3361A4E129D0A6A6F /* Pods-Jump.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Jump.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jump/Jump-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -386,6 +475,20 @@
 			};
 			name = Release;
 		};
+		C97129A219B264C800ED7616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C97129A319B264C800ED7616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +508,7 @@
 				C971295119B25EE800ED7616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C971295219B25EE800ED7616 /* Build configuration list for PBXNativeTarget "JumpTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +517,16 @@
 				C971295419B25EE800ED7616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97129A119B264C800ED7616 /* Build configuration list for PBXAggregateTarget "UniversalJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97129A219B264C800ED7616 /* Debug */,
+				C97129A319B264C800ED7616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

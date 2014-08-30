@@ -1,0 +1,628 @@
+TJump
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
+cProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7
+cLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s
+cLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64
+cCreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64
+cPBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053BEF66B0000000000000132
+t1405023851
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053BEF65C000000000000036B
+t1405023836
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053236521000000000000019E
+t1394828577
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532365220000000000A90C10
+t1394828578
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000532365400000000000000ADC
+t1394828608
+s2780
+
+N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
+t1409435862
+s625
+
+N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
+t2
+s0
+
+N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h
+t2
+s0
+
+N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h
+t2
+s0
+
+N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a
+t1409435862
+s3248444
+
+N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libPods-Jump.a
+c00000000540243DC000000000014B180
+t1409434588
+s1356160
+
+N/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+c000000005402276800000000000000B6
+t1409427304
+s182
+
+N/Users/matt/Projects/ios/Jump/Jump/Jump.h
+c00000000540248DE0000000000000263
+t1409435870
+s611
+
+N/Users/matt/Projects/ios/Jump/Jump/Jump.m
+c000000005402485400000000000016C4
+t1409435732
+s5828
+
+N/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+c000000005402477200000000000000B2
+t1409435506
+s178
+
+N/Users/matt/Projects/ios/Jump/Jump/LeapObjC/Leap.h
+c0000000053ED6A2D000000000002C740
+t1408068141
+s182080
+
+N/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
+c0000000053ED6A2D0000000000006F53
+t1408068141
+s28499
+
+N/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+c000000005401DD210000000000025116
+t1409408289
+s151830
+
+N/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+c0000000053ED6A2F000000000001238A
+t1408068143
+s74634
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.LinkFileList
+c000000005402483800000000000000D4
+t1409435704
+s212
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o
+t1409435871
+s35996
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o
+t2
+s0
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o
+t1409433994
+s595524
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a
+t1409435871
+s651200
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.LinkFileList
+c000000005402483800000000000000D4
+t1409435704
+s212
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o
+t1409435871
+s28972
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o
+t2
+s0
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o
+t1409433994
+s572148
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a
+t1409435871
+s620800
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.LinkFileList
+c000000005402483800000000000000D6
+t1409435704
+s214
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o
+t1409435871
+s28972
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o
+t2
+s0
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o
+t1409433994
+s571668
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a
+t1409435871
+s1976376
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
+c0000000054022D8D0000000000000103
+t1409428877
+s259
+
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh
+c0000000054022D8D0000000000000034
+t1409428877
+s52
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch
+t1409428877
+s91472
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.pch
+t1409434827
+s91472
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.pch
+t1409434827
+s91480
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch
+t1409433993
+s3699884
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch
+t1409433993
+s3679744
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch
+t1409428877
+s114092
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.pch
+t1409434827
+s114092
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch
+t1409433993
+s3679108
+
+N/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch
+t1409428877
+s91480
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc077935f80b2b941^5c73ab5f80b2b941^---0#1#1#--18"Check dependencies36"374FB5DB-F43E-4EBF-8F5F-7F73BAFE2EB6-
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431128671.685672
+e431128671.726126
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o
+x/Users/matt/Projects/ios/Jump/Jump/Jump.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump.m
+d/Users/matt/Projects/ios/Jump/Jump/Jump.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0cb0af5f80b2b941^46eeb95f80b2b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o36"219C0872-E337-43D2-AFF5-1212266CF5C8-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431128315.315916
+e431128315.357414
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o
+x/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m168"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o Jump/JumpLeap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler702351fb7eb2b941^d4825bfb7eb2b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/matt/Projects/ios/Jump/Jump/JumpLeap.m0000000000000000^3161"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o Jump/JumpLeap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.dia -c /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o36"EC8EB8AC-C354-4FF3-8FD4-25AF64820597-
+b9745C6B6-0FED-4EEE-860A-1C5167893F11
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431126793.558000
+e431126794.236949
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o
+x/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+xnormal
+xarm64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/Leap.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm192"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler46088f0979b2b941^d2a83c0a79b2b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm0000000000000000^3337"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o36"EE9455E1-E511-4D25-8D1E-4A187DD85524-
+bCB6F2ED6-3E09-4BB6-AB9C-42D101EFD1DD
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431128671.684888
+e431128671.726720
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o
+x/Users/matt/Projects/ios/Jump/Jump/Jump.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump.m
+d/Users/matt/Projects/ios/Jump/Jump/Jump.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler378baf5f80b2b941^9e08ba5f80b2b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o36"967CEAA7-A981-4F36-998F-8A889D1532AB-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431128315.315107
+e431128315.357378
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o
+x/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m168"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o Jump/JumpLeap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6cea50fb7eb2b941^857d5bfb7eb2b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/matt/Projects/ios/Jump/Jump/JumpLeap.m0000000000000000^3161"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o Jump/JumpLeap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.dia -c /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o36"F1D11369-ADAB-4375-BDBC-01A27868B7DD-
+b9745C6B6-0FED-4EEE-860A-1C5167893F11
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431126793.557303
+e431126794.272777
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o
+x/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/Leap.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm192"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilercbd68e0979b2b941^d8d4450a79b2b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm0000000000000000^3337"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o36"5AEF6F5C-F119-40A0-9DF0-819832EBE998-
+bCB6F2ED6-3E09-4BB6-AB9C-42D101EFD1DD
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431128671.685381
+e431128671.726107
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o
+x/Users/matt/Projects/ios/Jump/Jump/Jump.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump.m
+d/Users/matt/Projects/ios/Jump/Jump/Jump.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m162"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0a9daf5f80b2b941^cee2b95f80b2b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3144"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o36"AB4BC8FD-8C19-4D06-B955-ACCC70423377-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431128315.315384
+e431128315.343029
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o
+x/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
+d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m170"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o Jump/JumpLeap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler360251fb7eb2b941^8dd057fb7eb2b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/matt/Projects/ios/Jump/Jump/JumpLeap.m0000000000000000^3168"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o Jump/JumpLeap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.dia -c /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o36"F58D97BE-BD44-473A-8DB2-D98E03CD273B-
+b9745C6B6-0FED-4EEE-860A-1C5167893F11
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431126793.557654
+e431126794.281533
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o
+x/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+xnormal
+xarmv7s
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/Leap.h
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm194"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler70ef8e0979b2b941^ae12480a79b2b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm0000000000000000^3344"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o36"E7380743-955D-4F94-9A06-B241C934B244-
+bCB6F2ED6-3E09-4BB6-AB9C-42D101EFD1DD
+
+CCreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64
+s431128671.744181
+e431128671.792939
+r1
+xCreateUniversalBinary
+x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Create universal binary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a171"CreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64e8a5be5f80b2b941^d6feca5f80b2b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a0000000000000000^754"CreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64    cd /Users/matt/Projects/ios/Jump    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a -o /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a36"53C09018-0443-4D3C-885E-D1ACC688B85B-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64
+s431128671.728144
+e431128671.738703
+r1
+xLibtool
+x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm6494"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm644d9eba5f80b2b941^2a1cbd5f80b2b941^---0#0#1#--789"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.LinkFileList -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a36"8A8F4B4A-6DCF-409D-9698-4809512A6A93-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7
+s431128671.727540
+e431128671.739420
+r1
+xLibtool
+x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv794"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7ed7dba5f80b2b941^8351bd5f80b2b941^---0#0#1#--789"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.LinkFileList -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a36"02E24D67-4699-4B04-A1C6-495E726C790F-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s
+s431128671.727916
+e431128671.743729
+r1
+xLibtool
+x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s96"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7sb77aba5f80b2b941^3466be5f80b2b941^---0#0#1#--794"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.LinkFileList -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a36"237AD6CE-2A3C-4EA9-ABC7-6DDACCD22EDC-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CPBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
+s431128671.793437
+e431128671.794716
+r1
+xPBXCp
+xJump/Jump.h
+x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h149"PBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.hf644cb5f80b2b941^9f73cb5f80b2b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h0000000000000000^466"PBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"55F6A71C-7163-477B-AC5D-B73109AD67C9-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CPBXCp Jump/LeapObjC/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
+s431127357.815786
+e431127357.817348
+r1
+xPBXCp
+xJump/LeapObjC/Leap.h
+x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h158"PBXCp Jump/LeapObjC/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h76ffd03d7bb2b941^3a3fd13d7bb2b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h00346ca4deffdf42^484"PBXCp Jump/LeapObjC/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/LeapObjC/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"8AC919ED-67C2-407F-A8EA-B1F6156C108D-
+bCC395F82-D397-41DA-9CE1-0BBCB50E1F37
+
+CPBXCp Jump/LeapObjC/LeapMath.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h
+s431127357.815896
+e431127357.817428
+r1
+xPBXCp
+xJump/LeapObjC/LeapMath.h
+x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h166"PBXCp Jump/LeapObjC/LeapMath.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h2316d13d7bb2b941^e949d13d7bb2b941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h00346ca4deffdf42^496"PBXCp Jump/LeapObjC/LeapMath.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"84E7842B-4067-47F5-B3F3-7738C25375AB-
+bCC395F82-D397-41DA-9CE1-0BBCB50E1F37
+
+CPBXCp Jump/LeapObjC/LeapObjectiveC.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h
+s431127357.815651
+e431127357.817252
+r1
+xPBXCp
+xJump/LeapObjC/LeapObjectiveC.h
+x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h178"PBXCp Jump/LeapObjC/LeapObjectiveC.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h87fbd03d7bb2b941^0937d13d7bb2b941^---0#0#1#-19%DVTDocumentLocation2@148"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h00346ca4deffdf42^514"PBXCp Jump/LeapObjC/LeapObjectiveC.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapObjectiveC.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"4EDEF3EA-40AF-4E91-A787-7264A708C0CD-
+bCC395F82-D397-41DA-9CE1-0BBCB50E1F37
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
+s431128671.671934
+e431128671.683299
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'125"PhaseScriptExecution Check\ Pods\ Manifest.lock build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh124dac5f80b2b941^d0f0ae5f80b2b941^---0#0#1#--286"PhaseScriptExecution Check\ Pods\ Manifest.lock build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh    cd /Users/matt/Projects/ios/Jump    /bin/sh -c /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh36"3FB3A842-A6D6-4619-92A4-C3EFE851DDA1-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh
+s431128671.795386
+e431128671.854539
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'120"PhaseScriptExecution Copy\ Pods\ Resources build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh8fe3cb5f80b2b941^0dc4da5f80b2b941^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-431128671#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-431128671#29#50#-0#-----2@33"total size is 0  speedup is 0.00-431128671#79#33#-0#-----0#0#1#--281"PhaseScriptExecution Copy\ Pods\ Resources build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh    cd /Users/matt/Projects/ios/Jump    /bin/sh -c /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh36"A1B99646-A150-422B-8845-DB9749B60BA7-
+b3460CAA7-A18B-4322-A583-4C5070C6807E
+
+CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431121677.235339
+e431121677.265804
+r1
+xProcessPCH
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch298"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler836d3c0d65b2b941^9318440d65b2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^3375"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch36"1489E1E1-55D8-4DF8-9F6A-0A3F1798D351-
+b2E4B71DA-EE0D-4C1B-9FA5-291D2CE67E6D
+
+CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431127627.002277
+e431127627.029021
+r1
+xProcessPCH
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch298"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0cca004b7cb2b941^ec6d074b7cb2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^4295"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-axjgunqbaclbtedrmtvbddepirio/Jump-Prefix.pch.pch36"14D86929-DBD5-40F5-88CD-6478B08757EF-
+bA6FA2F57-D1DF-46E6-B234-8F4895C55121
+
+CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431127627.002478
+e431127627.028431
+r1
+xProcessPCH
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch299"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler8ae3004b7cb2b941^0f47074b7cb2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^4298"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-biplldduohbeyndujfgqvjrelsyf/Jump-Prefix.pch.pch36"37D1CC17-B593-4801-A87B-19C2E475C73C-
+bA6FA2F57-D1DF-46E6-B234-8F4895C55121
+
+CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431121677.235757
+e431121677.265672
+r1
+xProcessPCH
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch298"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfe9a3c0d65b2b941^1213440d65b2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^3375"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch36"91AE7ACA-1A19-4BF1-930C-2AADDA5820DA-
+b2E4B71DA-EE0D-4C1B-9FA5-291D2CE67E6D
+
+CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431127627.002785
+e431127627.028756
+r1
+xProcessPCH
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch298"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd600014b7cb2b941^185c074b7cb2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^4295"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-eypktamolkbnaffdmkzksnbupyuz/Jump-Prefix.pch.pch36"D9196B2D-4904-4F85-8AA6-44BC9D3B3D4B-
+bA6FA2F57-D1DF-46E6-B234-8F4895C55121
+
+CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431121677.235537
+e431121677.265602
+r1
+xProcessPCH
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch299"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler527c3c0d65b2b941^060e440d65b2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^3378"ProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch36"F322B8F5-786C-46BB-AF78-9F2C8483AE21-
+b2E4B71DA-EE0D-4C1B-9FA5-291D2CE67E6D
+
+CProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431126793.394172
+e431126793.551868
+r1
+xProcessPCH++
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarm64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch302"ProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compileraa0e650979b2b941^06478d0979b2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^3497"ProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch.pch36"DA7EFC75-B0F8-4E1E-8721-4EE708FFD3B5-
+bCB6F2ED6-3E09-4BB6-AB9C-42D101EFD1DD
+
+CProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431126793.393507
+e431126793.547312
+r1
+xProcessPCH++
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch302"ProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler42ec640979b2b941^3e208c0979b2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^3497"ProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch.pch36"14F1B675-47FC-4D72-9A07-D660243DA1A8-
+bCB6F2ED6-3E09-4BB6-AB9C-42D101EFD1DD
+
+CProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431126793.393845
+e431126793.556731
+r1
+xProcessPCH++
+x/var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch
+xJump/Jump-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Jump/Jump-Prefix.pch303"ProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compilerdffe640979b2b941^0e868e0979b2b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch0000000000000000^3500"ProcessPCH++ /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket --serialize-diagnostics /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.d -c /Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch -o /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch.pch36"A6630381-DEE2-431D-84CA-048EC42084C5-
+bCB6F2ED6-3E09-4BB6-AB9C-42D101EFD1DD
+

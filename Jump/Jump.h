@@ -8,6 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Jump : NSObject
+@class GCDAsyncSocket, Jump;
+
+@protocol JumpDelegate <NSObject>
+
+- (void)jump:(Jump *)jump gotFrame:(NSMutableDictionary *)frame;
+
+@end
+
+@interface Jump : NSObject <NSNetServiceDelegate, NSNetServiceBrowserDelegate>
+{
+    NSNetServiceBrowser *netServiceBrowser;
+	NSNetService *serverService;
+	NSMutableArray *serverAddresses;
+	GCDAsyncSocket *asyncSocket;
+	BOOL connected;
+}
+
+@property (nonatomic, assign) id <JumpDelegate> delegate;
+
+- (void)jump;
 
 @end
