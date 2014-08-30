@@ -31,7 +31,6 @@
 		C971294A19B25EE800ED7616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C971294819B25EE800ED7616 /* InfoPlist.strings */; };
 		C971294C19B25EE800ED7616 /* JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C971294B19B25EE800ED7616 /* JumpTests.m */; };
 		C9712A3F19B2790500ED7616 /* Jump.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C971293419B25EE800ED7616 /* Jump.h */; };
-		C98914AB19B27FB3000ADA4B /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = C98914AA19B27FB3000ADA4B /* LeapObjectiveC.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,10 +70,6 @@
 		C971294719B25EE800ED7616 /* JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpTests-Info.plist"; sourceTree = "<group>"; };
 		C971294919B25EE800ED7616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C971294B19B25EE800ED7616 /* JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpTests.m; sourceTree = "<group>"; };
-		C98914A719B27FB3000ADA4B /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
-		C98914A819B27FB3000ADA4B /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
-		C98914A919B27FB3000ADA4B /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
-		C98914AA19B27FB3000ADA4B /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +132,6 @@
 			children = (
 				C971293419B25EE800ED7616 /* Jump.h */,
 				C971293619B25EE800ED7616 /* Jump.m */,
-				C98914A619B27FB3000ADA4B /* LeapObjC */,
 				C971293219B25EE800ED7616 /* Supporting Files */,
 			);
 			path = Jump;
@@ -167,17 +161,6 @@
 				C971294819B25EE800ED7616 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C98914A619B27FB3000ADA4B /* LeapObjC */ = {
-			isa = PBXGroup;
-			children = (
-				C98914A719B27FB3000ADA4B /* Leap.h */,
-				C98914A819B27FB3000ADA4B /* LeapMath.h */,
-				C98914A919B27FB3000ADA4B /* LeapObjectiveC.h */,
-				C98914AA19B27FB3000ADA4B /* LeapObjectiveC.mm */,
-			);
-			path = LeapObjC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C971293719B25EE800ED7616 /* Jump.m in Sources */,
-				C98914AB19B27FB3000ADA4B /* LeapObjectiveC.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

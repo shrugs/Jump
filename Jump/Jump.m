@@ -8,7 +8,16 @@
 
 #import "Jump.h"
 #import <CocoaAsyncSocket/GCDAsyncSocket.h>
-#import "LeapObjC/LeapObjectiveC.h"
+
+typedef enum jumpGestureDirection {
+    JumpGestureDirectionUp,
+    JumpGestureDirectionLeft,
+    JumpGestureDirectionRight,
+    JumpGestureDirectionDown,
+    JumpGestureDirectionOut,
+    JumpGestureDirectionIn
+} JumpGestureDirection;
+
 
 @implementation Jump
 
@@ -36,20 +45,29 @@
 //	NSString *jsonData = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 
     NSError *error;
-    NSMutableDictionary *frame = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+    NSMutableDictionary *frameDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
 
     if (!error) {
 
-//        NSMutableArray *gesturesArray = frameDict[@"gestures"];
-//        if ([gesturesArray count] > 0) {
-//            // we have a gesture
-//            for (NSMutableDictionary *gesture in gesturesArray) {
-//                if ([gesture[@"state"] isEqualToString:@"stop"]) {
-//                    // we got a stopped gesture, alright!
-//                    [self getGestureDirection: gesture[@"direction"]];
-//                }
-//            }
-//        }
+        NSMutableArray *gesturesArray = frameDict[@"gestures"];
+        if ([gesturesArray count] > 0) {
+            // we have a gesture
+            for (NSMutableDictionary *gesture in gesturesArray) {
+                if ([gesture[@"state"] isEqualToString:@"stop"]) {
+                    // we got a stopped gesture, alright!
+                    if ([gesture[@"type"] isEqualToString:@"swipe"] ||
+                        [gesture[@"type"] isEqualToString:@"keyTap"] ||
+                        [gesture[@"type"] isEqualToString:@"screenTap"]) {
+                            gesture[@"gestureDirection"] = [NSNumber numberWithInt:[self getGestureDirection: gesture[@"direction"]]];
+                        }
+
+                    if ([delegate respondsToSelector:@selector(jump:gotGesture:)]) {
+                        [delegate jump:self gotGesture:gesture];
+                    }
+
+                }
+            }
+        }
         // make a LeapFrame object
 //        LeapFrame *frame = [[LeapFrame alloc] init];
 //        frame.currentFramesPerSecond = [frameDict[@"currentFrameRate"] floatValue];
@@ -61,20 +79,52 @@
 //        frame.id = [frameDict[@"id"] longLongValue];
 //        frame.interactionBox = [[LeapInteractionBox alloc] init];
 //        frame.interactionBox.center = [[LeapVector alloc] initWithArray:frameDict[@"interactionBox"][@"center"]];
-//        frame.interactionBox.size = [[LeapVector alloc] initWithArray:frameDict[@"interactionBox"][@"size"]];
+////        frame.interactionBox.size = [[LeapVector alloc] initWithArray:frameDict[@"interactionBox"][@"size"]];
 //        NSMutableArray *pointablesArray = frameDict[@"pointables"];
-//        frame.r = [[LeapVector alloc] initWithArray:frameDict[@"r"]];
+//        frame.r = [[LeapMatrix alloc] initWithR:frameDict[@"r"] andT:frameDict[@"t"]];
 //        frame.s = [NSNumber numberWithFloat:[frameDict[@"s"] floatValue]];
 //        frame.t = [[LeapVector alloc] initWithArray:frameDict[@"r"]];
 //        frame.timestamp = [frameDict[@"timestamp"] unsignedIntegerValue];
 
-        [delegate jump:self gotFrame:frame];
+        [delegate jump:self gotFrame:frameDict];
     }
 
 //    [delegate jump:self gotFrame:frame];
 
     // Read the next line of the header
     [asyncSocket readDataToData:[GCDAsyncSocket CRLFData] withTimeout:-1.0 tag:0];
+
+}
+
+- (JumpGestureDirection)getGestureDirection:(NSMutableArray *)gestureDirection
+{
+
+    if ([gestureDirection count] < 3) {
+        return JumpGestureDirectionLeft;
+    }
+
+    float x = [[gestureDirection objectAtIndex:0] floatValue]*10;
+    float y = [[gestureDirection objectAtIndex:1] floatValue]*10;
+    float z = [[gestureDirection objectAtIndex:2] floatValue]*10;
+
+    const int ax = (int)fabsf(x);
+    const int ay = (int)fabsf(y);
+    const int az = (int)fabsf(z);
+
+    int largest = (int)MAX(ax, MAX(ay, az));
+
+    NSLog(@"%@", gestureDirection);
+    NSLog(@"%i, %i, %i", ax, ay, az);
+
+    if (largest == ax) {
+        return x > 0 ? JumpGestureDirectionRight : JumpGestureDirectionLeft;
+    } else if (largest == ay) {
+        return y > 0 ? JumpGestureDirectionUp : JumpGestureDirectionDown;
+    } else if (largest == az) {
+        return z > 0 ? JumpGestureDirectionIn : JumpGestureDirectionOut;
+    } else {
+        return JumpGestureDirectionLeft;
+    }
 
 }
 

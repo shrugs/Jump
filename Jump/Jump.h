@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+
 @class GCDAsyncSocket, Jump;
 
 @protocol JumpDelegate <NSObject>
 
 - (void)jump:(Jump *)jump gotFrame:(NSMutableDictionary *)frame;
+
+@optional
+- (void)jump:(Jump *)jump gotGesture:(NSMutableDictionary *)gesture;
 
 @end
 
