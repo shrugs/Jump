@@ -8,15 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Leap.h"
+
 
 @class GCDAsyncSocket, Jump;
 
 @protocol JumpDelegate <NSObject>
 
-- (void)jump:(Jump *)jump gotFrame:(NSMutableDictionary *)frame;
-
 @optional
-- (void)jump:(Jump *)jump gotGesture:(NSMutableDictionary *)gesture;
+- (void)jump:(Jump *)jump gotFrame:(LeapFrame *)frame;
+- (void)jump:(Jump *)jump gestureFinished:(LeapGesture *)gesture;
 
 @end
 

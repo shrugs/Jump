@@ -31,6 +31,9 @@
 		C971294A19B25EE800ED7616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C971294819B25EE800ED7616 /* InfoPlist.strings */; };
 		C971294C19B25EE800ED7616 /* JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C971294B19B25EE800ED7616 /* JumpTests.m */; };
 		C9712A3F19B2790500ED7616 /* Jump.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C971293419B25EE800ED7616 /* Jump.h */; };
+		C989150019B2CBE5000ADA4B /* libPods-Jump-CocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C98914FF19B2CBE5000ADA4B /* libPods-Jump-CocoaAsyncSocket.a */; };
+		C989151719B2ECA9000ADA4B /* Leap.m in Sources */ = {isa = PBXBuildFile; fileRef = C989151619B2ECA9000ADA4B /* Leap.m */; };
+		C989151919B2FB55000ADA4B /* Leap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C989151519B2ECA9000ADA4B /* Leap.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				C989151919B2FB55000ADA4B /* Leap.h in CopyFiles */,
 				C9712A3F19B2790500ED7616 /* Jump.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +74,9 @@
 		C971294719B25EE800ED7616 /* JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpTests-Info.plist"; sourceTree = "<group>"; };
 		C971294919B25EE800ED7616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C971294B19B25EE800ED7616 /* JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpTests.m; sourceTree = "<group>"; };
+		C98914FF19B2CBE5000ADA4B /* libPods-Jump-CocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Jump-CocoaAsyncSocket.a"; path = "Pods/build/Debug-iphoneos/libPods-Jump-CocoaAsyncSocket.a"; sourceTree = "<group>"; };
+		C989151519B2ECA9000ADA4B /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		C989151619B2ECA9000ADA4B /* Leap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C989150019B2CBE5000ADA4B /* libPods-Jump-CocoaAsyncSocket.a in Frameworks */,
 				C971293019B25EE800ED7616 /* Foundation.framework in Frameworks */,
 				2E78FF899591456DAF70318F /* libPods-Jump.a in Frameworks */,
 			);
@@ -119,6 +127,7 @@
 		C971292E19B25EE800ED7616 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C98914FF19B2CBE5000ADA4B /* libPods-Jump-CocoaAsyncSocket.a */,
 				C971292F19B25EE800ED7616 /* Foundation.framework */,
 				C971293D19B25EE800ED7616 /* XCTest.framework */,
 				C971294019B25EE800ED7616 /* UIKit.framework */,
@@ -133,6 +142,7 @@
 				C971293419B25EE800ED7616 /* Jump.h */,
 				C971293619B25EE800ED7616 /* Jump.m */,
 				C971293219B25EE800ED7616 /* Supporting Files */,
+				C989151819B2ECAD000ADA4B /* Leap */,
 			);
 			path = Jump;
 			sourceTree = "<group>";
@@ -161,6 +171,15 @@
 				C971294819B25EE800ED7616 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C989151819B2ECAD000ADA4B /* Leap */ = {
+			isa = PBXGroup;
+			children = (
+				C989151519B2ECA9000ADA4B /* Leap.h */,
+				C989151619B2ECA9000ADA4B /* Leap.m */,
+			);
+			name = Leap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C971293719B25EE800ED7616 /* Jump.m in Sources */,
+				C989151719B2ECA9000ADA4B /* Leap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +422,11 @@
 				DSTROOT = /tmp/Jump.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jump/Jump-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -415,6 +440,10 @@
 				DSTROOT = /tmp/Jump.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jump/Jump-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -460,6 +489,7 @@
 		C97129A219B264C800ED7616 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -467,6 +497,7 @@
 		C97129A319B264C800ED7616 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

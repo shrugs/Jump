@@ -7,12 +7,16 @@ cProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.Developer
 cProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o /Users/matt/Projects/ios/Jump/Jump/Leap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o /Users/matt/Projects/ios/Jump/Jump/Leap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o /Users/matt/Projects/ios/Jump/Jump/Leap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7
 cLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s
 cLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64
 cCreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64
+cPBXCp Jump/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
 cPBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
 cPhaseScriptExecution Copy\ Pods\ Resources /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh
 
@@ -42,12 +46,12 @@ t1394828608
 s2780
 
 N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
-t1409438796
-s692
+t1409473078
+s696
 
 N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
-t2
-s0
+t1409476306
+s7442
 
 N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/LeapMath.h
 t2
@@ -58,13 +62,13 @@ t2
 s0
 
 N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a
-t1409439382
-s1473996
+t1409476699
+s4732708
 
 N/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libPods-Jump.a
-c00000000540243DC000000000014B180
-t1409434588
-s1356160
+c000000005402A4C60000000000002D9C
+t1409459398
+s11676
 
 N/Users/matt/Projects/ios/Jump/Jump/Jump-Prefix.pch
 c000000005402276800000000000000B6
@@ -72,14 +76,14 @@ t1409427304
 s182
 
 N/Users/matt/Projects/ios/Jump/Jump/Jump.h
-c0000000054024ED300000000000002B4
-t1409437395
-s692
+c000000005402D61E00000000000002B8
+t1409472030
+s696
 
 N/Users/matt/Projects/ios/Jump/Jump/Jump.m
-c000000005402573A0000000000001D40
-t1409439546
-s7488
+c000000005402DB110000000000003D3F
+t1409473297
+s15679
 
 N/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
 c00000000000000000000000000000000
@@ -90,6 +94,16 @@ N/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
 c000000005402477200000000000000B2
 t1409435506
 s178
+
+N/Users/matt/Projects/ios/Jump/Jump/Leap.h
+c000000005402E6D00000000000001D12
+t1409476304
+s7442
+
+N/Users/matt/Projects/ios/Jump/Jump/Leap.m
+c000000005403076D0000000000001175
+t1409484653
+s4469
 
 N/Users/matt/Projects/ios/Jump/Jump/LeapObjC/Leap.h
 c0000000053ED6A2D000000000002C740
@@ -107,72 +121,99 @@ t2
 s0
 
 N/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm
-c0000000054024DCD0000000000012653
-t1409437133
-s75347
+c0000000053ED6A2F000000000001238A
+t1408068143
+s74634
+
+N/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h
+c000000005401DD210000000000025116
+t1409408289
+s151830
+
+N/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+c000000005402B4F300000000000123D7
+t1409463539
+s74711
+
+N/Users/matt/Projects/ios/Jump/Pods/build/Debug-iphoneos/libPods-Jump-CocoaAsyncSocket.a
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.LinkFileList
-c0000000054024E200000000000000065
-t1409437216
-s101
+c000000005402B5B000000000000000CA
+t1409463728
+s202
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o
-t1409439548
-s43392
+t1409476305
+s87204
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o
 t2
 s0
 
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o
+t1409484654
+s134888
+
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o
-t1409437137
-s597996
+t2
+s0
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a
-t1409439548
-s44144
+t1409484654
+s1614664
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.LinkFileList
-c0000000054024E200000000000000065
-t1409437216
-s101
+c000000005402B5B000000000000000CA
+t1409463728
+s202
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o
-t1409439548
-s36184
+t1409476305
+s82820
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o
 t2
 s0
 
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o
+t1409484654
+s115864
+
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o
-t1409437137
-s574592
+t2
+s0
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a
-t1409439548
-s36936
+t1409484654
+s1559824
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.LinkFileList
-c0000000054024E200000000000000066
-t1409437216
-s102
+c000000005402B5B000000000000000CC
+t1409463728
+s204
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o
-t1409439548
-s36080
+t1409476306
+s82820
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o
 t2
 s0
 
+N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o
+t1409484654
+s115816
+
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o
-t1409437137
-s574080
+t2
+s0
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a
-t1409439548
-s1392896
+t1409484654
+s1559808
 
 N/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
 c0000000054022D8D0000000000000103
@@ -222,11 +263,11 @@ s91480
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb2da10bc8eb2b941^6dc51ebc8eb2b941^---0#1#1#--18"Check dependencies36"E075AA5C-3D1D-463C-9D70-6A9055B9FF25-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2f157fee3eb3b941^fbeb8dee3eb3b941^---0#1#1#--18"Check dependencies36"3C4D49D0-CC45-4F6C-B794-80F01ECE5280-
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431132348.135941
-e431132348.183770
+s431169105.902428
+e431169106.001994
 r1
 xCompileC
 xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o
@@ -237,8 +278,9 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/matt/Projects/ios/Jump/Jump/Jump.m
 d/Users/matt/Projects/ios/Jump/Jump/Jump.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler56f522bc8eb2b941^350c2fbc8eb2b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o36"DD5BEECA-BCF1-4A0C-9541-952CDF8F97EF-
-b38595474-F31E-40A7-A77A-3B5860601612
+d/Users/matt/Projects/ios/Jump/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd444e7511eb3b941^e69400521eb3b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o Jump/Jump.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.o36"06D903F7-2657-43E8-AFBC-05F088E9A8FC-
+b95FFC7C5-B636-41ED-AACC-42A6C96A35CA
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s431128315.315916
@@ -255,6 +297,22 @@ d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
 d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m168"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o Jump/JumpLeap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler702351fb7eb2b941^d4825bfb7eb2b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/matt/Projects/ios/Jump/Jump/JumpLeap.m0000000000000000^3161"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o Jump/JumpLeap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.dia -c /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/JumpLeap.o36"EC8EB8AC-C354-4FF3-8FD4-25AF64820597-
 b9745C6B6-0FED-4EEE-860A-1C5167893F11
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o /Users/matt/Projects/ios/Jump/Jump/Leap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431177454.568530
+e431177454.660813
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o
+x/Users/matt/Projects/ios/Jump/Jump/Leap.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Leap.m
+d/Users/matt/Projects/ios/Jump/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Leap.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o Jump/Leap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler90be91ee3eb3b941^6729a9ee3eb3b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Leap.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o Jump/Leap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-evzpwdjsewvyusgadjwgntjnszde/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.dia -c /Users/matt/Projects/ios/Jump/Jump/Leap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Leap.o36"1CDEBE7E-5ECA-48D6-9594-BED1538A9C98-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s431129936.393901
@@ -274,9 +332,182 @@ d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm192"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler0c04655085b2b941^2ec81a5185b2b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm0000000000000000^3337"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o36"B8524104-15D1-4C21-AFA2-E8ACDBCE2B1E-
 b3FC3CD96-FEDF-4144-9DAB-FA5FDA91AF63
 
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431156341.298575
+e431156341.420092
+r0
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o
+x/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+xnormal
+xarm64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'cross:' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:307:1: note: method 'cross:' declared here
+o- (LeapVector *)cross:(const LeapVector *)vector;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zero' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:349:1: note: method 'zero' declared here
+o+ (LeapVector *)zero;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'xAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:356:1: note: method 'xAxis' declared here
+o+ (LeapVector *)xAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'yAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:363:1: note: method 'yAxis' declared here
+o+ (LeapVector *)yAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:370:1: note: method 'zAxis' declared here
+o+ (LeapVector *)zAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'left' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:377:1: note: method 'left' declared here
+o+ (LeapVector *)left;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'right' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:384:1: note: method 'right' declared here
+o+ (LeapVector *)right;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'down' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:391:1: note: method 'down' declared here
+o+ (LeapVector *)down;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'up' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:398:1: note: method 'up' declared here
+o+ (LeapVector *)up;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'forward' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:405:1: note: method 'forward' declared here
+o+ (LeapVector *)forward;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'backward' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:412:1: note: method 'backward' declared here
+o+ (LeapVector *)backward;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:477:1: note: method 'initWithAxis:angleRadians:' declared here
+o- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:translation:' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:489:1: note: method 'initWithAxis:angleRadians:translation:' declared here
+o- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians translation:(const LeapVector *)translation;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'identity' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:587:1: note: method 'identity' declared here
+o+ (LeapMatrix *)identity;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:15: error: use of undeclared identifier 'Leap'
+o        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;
+o              ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:57: error: use of undeclared identifier 'Leap'
+o        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;
+o                                                        ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Pointable(*castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Pointable(*castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:11: error: use of undeclared identifier 'Leap'
+o    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;
+o          ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:53: error: use of undeclared identifier 'Leap'
+o    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;
+o                                                    ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:473:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable;
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:478:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->id();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:483:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->tipPosition().x y:_interfacePointable->tipPosition().y z:_interfacePointable->tipPosition().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:488:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->tipVelocity().x y:_interfacePointable->tipVelocity().y z:_interfacePointable->tipVelocity().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:493:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->direction().x y:_interfacePointable->direction().y z:_interfacePointable->direction().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:498:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->width();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:503:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->length();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:508:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->isFinger();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:513:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->isTool();
+o           ^
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o14 warnings and 20 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm183"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o Jump/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler8e954c75ecb2b941^e38a6b75ecb2b941^-9957"/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'cross:' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:307:1: note: method 'cross:' declared here- (LeapVector *)cross:(const LeapVector *)vector;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zero' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:349:1: note: method 'zero' declared here+ (LeapVector *)zero;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'xAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:356:1: note: method 'xAxis' declared here+ (LeapVector *)xAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'yAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:363:1: note: method 'yAxis' declared here+ (LeapVector *)yAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:370:1: note: method 'zAxis' declared here+ (LeapVector *)zAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'left' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:377:1: note: method 'left' declared here+ (LeapVector *)left;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'right' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:384:1: note: method 'right' declared here+ (LeapVector *)right;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'down' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:391:1: note: method 'down' declared here+ (LeapVector *)down;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'up' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:398:1: note: method 'up' declared here+ (LeapVector *)up;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'forward' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:405:1: note: method 'forward' declared here+ (LeapVector *)forward;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'backward' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:412:1: note: method 'backward' declared here+ (LeapVector *)backward;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:477:1: note: method 'initWithAxis:angleRadians:' declared here- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:translation:' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:489:1: note: method 'initWithAxis:angleRadians:translation:' declared here- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians translation:(const LeapVector *)translation;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'identity' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:587:1: note: method 'identity' declared here+ (LeapMatrix *)identity;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:15: error: use of undeclared identifier 'Leap'        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;              ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:57: error: use of undeclared identifier 'Leap'        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;                                                        ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Pointable(*castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Pointable(*castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:11: error: use of undeclared identifier 'Leap'    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;          ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:53: error: use of undeclared identifier 'Leap'    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;                                                    ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:473:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable;           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:478:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->id();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:483:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->tipPosition().x y:_interfacePointable->tipPosition().y z:_interfacePointable->tipPosition().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:488:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->tipVelocity().x y:_interfacePointable->tipVelocity().y z:_interfacePointable->tipVelocity().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:493:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->direction().x y:_interfacePointable->direction().y z:_interfacePointable->direction().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:498:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->width();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:503:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->length();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:508:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->isFinger();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:513:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->isTool();           ^fatal error: too many errors emitted, stopping now [-ferror-limit=]14 warnings and 20 errors generated.34(36%IDEClangDiagnosticActivityLogMessage2@40"Method definition for 'cross:' not found-431156341#18446744073709551615#0#1(2@29"Method 'cross:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^306#0#306#0#11113#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'zero' not found-431156341#18446744073709551615#0#1(2@27"Method 'zero' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^348#0#348#0#12344#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'xAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'xAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^355#0#355#0#12468#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'yAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'yAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^362#0#362#0#12593#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'zAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'zAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^369#0#369#0#12718#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'left' not found-431156341#18446744073709551615#0#1(2@27"Method 'left' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^376#0#376#0#12876#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'right' not found-431156341#18446744073709551615#0#1(2@28"Method 'right' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^383#0#383#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'down' not found-431156341#18446744073709551615#0#1(2@27"Method 'down' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^390#0#390#0#13192#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@36"Method definition for 'up' not found-431156341#18446744073709551615#0#1(2@25"Method 'up' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^397#0#397#0#13344#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@41"Method definition for 'forward' not found-431156341#18446744073709551615#0#1(2@30"Method 'forward' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^404#0#404#0#13505#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@42"Method definition for 'backward' not found-431156341#18446744073709551615#0#1(2@31"Method 'backward' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^411#0#411#0#13672#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@60"Method definition for 'initWithAxis:angleRadians:' not found-431156341#18446744073709551615#0#1(2@49"Method 'initWithAxis:angleRadians:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^476#0#476#0#15732#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@72"Method definition for 'initWithAxis:angleRadians:translation:' not found-431156341#18446744073709551615#0#1(2@61"Method 'initWithAxis:angleRadians:translation:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^488#0#488#0#16225#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@42"Method definition for 'identity' not found-431156341#18446744073709551615#0#1(2@31"Method 'identity' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^586#0#586#0#19461#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^431#14#431#14#13374#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^431#56#431#56#13416#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^433#12#433#12#13500#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^433#38#433#38#13526#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^436#12#436#12#13648#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^436#38#436#38#13674#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^439#12#439#12#13761#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^439#38#439#38#13787#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^450#10#450#10#14007#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^450#52#450#52#14049#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^472#11#472#11#14547#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^477#11#477#11#14598#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^482#41#482#41#14699#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^487#41#487#41#14890#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^492#41#492#41#15079#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^497#11#497#11#15221#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^502#11#502#11#15283#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^507#11#507#11#15347#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^512#11#512#11#15411#0#14"Semantic Issue--2@37"Too many errors emitted, stopping now-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation4@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^3319"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o Jump/LeapObjectiveC.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/arm64 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-brcrofduepyujodfnyalcthzzuwr/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/LeapObjectiveC.o36"A84AD4D0-C302-42B4-91EA-43B72188EBD6-
+bC78AD373-B27E-4BC5-8DE2-5AA098C598D6
+
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431132348.135628
-e431132348.182316
+s431169105.901375
+e431169106.001982
 r1
 xCompileC
 xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o
@@ -287,8 +518,9 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/matt/Projects/ios/Jump/Jump/Jump.m
 d/Users/matt/Projects/ios/Jump/Jump/Jump.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler54e222bc8eb2b941^d6ad2ebc8eb2b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o36"01A16B0C-F8FA-42A2-BDF4-9635F0E0FB11-
-b38595474-F31E-40A7-A77A-3B5860601612
+d/Users/matt/Projects/ios/Jump/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4aece6511eb3b941^498200521eb3b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o Jump/Jump.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.o36"9AAD3EA2-6840-4EF9-8E9D-BB1F6865BBCD-
+b95FFC7C5-B636-41ED-AACC-42A6C96A35CA
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s431128315.315107
@@ -305,6 +537,22 @@ d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
 d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m168"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o Jump/JumpLeap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6cea50fb7eb2b941^857d5bfb7eb2b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/matt/Projects/ios/Jump/Jump/JumpLeap.m0000000000000000^3161"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o Jump/JumpLeap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.dia -c /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/JumpLeap.o36"F1D11369-ADAB-4375-BDBC-01A27868B7DD-
 b9745C6B6-0FED-4EEE-860A-1C5167893F11
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o /Users/matt/Projects/ios/Jump/Jump/Leap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431177454.567987
+e431177454.660419
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o
+x/Users/matt/Projects/ios/Jump/Jump/Leap.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Leap.m
+d/Users/matt/Projects/ios/Jump/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Leap.m160"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o Jump/Leap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler319691ee3eb3b941^8812a9ee3eb3b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Leap.m0000000000000000^3137"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o Jump/Leap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.dia -c /Users/matt/Projects/ios/Jump/Jump/Leap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Leap.o36"32CAE6E2-3C69-4CA1-A202-BCDAEF19E37C-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s431129936.393228
@@ -324,9 +572,182 @@ d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm192"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler24d4645085b2b941^a6422c5185b2b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm0000000000000000^3337"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o36"68D47995-3B88-4CC7-93FF-086BC31E01FB-
 b3FC3CD96-FEDF-4144-9DAB-FA5FDA91AF63
 
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431156341.297980
+e431156341.422972
+r0
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o
+x/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'cross:' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:307:1: note: method 'cross:' declared here
+o- (LeapVector *)cross:(const LeapVector *)vector;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zero' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:349:1: note: method 'zero' declared here
+o+ (LeapVector *)zero;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'xAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:356:1: note: method 'xAxis' declared here
+o+ (LeapVector *)xAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'yAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:363:1: note: method 'yAxis' declared here
+o+ (LeapVector *)yAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:370:1: note: method 'zAxis' declared here
+o+ (LeapVector *)zAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'left' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:377:1: note: method 'left' declared here
+o+ (LeapVector *)left;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'right' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:384:1: note: method 'right' declared here
+o+ (LeapVector *)right;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'down' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:391:1: note: method 'down' declared here
+o+ (LeapVector *)down;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'up' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:398:1: note: method 'up' declared here
+o+ (LeapVector *)up;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'forward' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:405:1: note: method 'forward' declared here
+o+ (LeapVector *)forward;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'backward' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:412:1: note: method 'backward' declared here
+o+ (LeapVector *)backward;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:477:1: note: method 'initWithAxis:angleRadians:' declared here
+o- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:translation:' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:489:1: note: method 'initWithAxis:angleRadians:translation:' declared here
+o- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians translation:(const LeapVector *)translation;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'identity' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:587:1: note: method 'identity' declared here
+o+ (LeapMatrix *)identity;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:15: error: use of undeclared identifier 'Leap'
+o        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;
+o              ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:57: error: use of undeclared identifier 'Leap'
+o        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;
+o                                                        ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Pointable(*castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Pointable(*castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:11: error: use of undeclared identifier 'Leap'
+o    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;
+o          ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:53: error: use of undeclared identifier 'Leap'
+o    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;
+o                                                    ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:473:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable;
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:478:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->id();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:483:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->tipPosition().x y:_interfacePointable->tipPosition().y z:_interfacePointable->tipPosition().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:488:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->tipVelocity().x y:_interfacePointable->tipVelocity().y z:_interfacePointable->tipVelocity().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:493:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->direction().x y:_interfacePointable->direction().y z:_interfacePointable->direction().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:498:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->width();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:503:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->length();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:508:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->isFinger();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:513:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->isTool();
+o           ^
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o14 warnings and 20 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm183"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o Jump/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler7d764c75ecb2b941^3c4b6c75ecb2b941^-9957"/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'cross:' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:307:1: note: method 'cross:' declared here- (LeapVector *)cross:(const LeapVector *)vector;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zero' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:349:1: note: method 'zero' declared here+ (LeapVector *)zero;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'xAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:356:1: note: method 'xAxis' declared here+ (LeapVector *)xAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'yAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:363:1: note: method 'yAxis' declared here+ (LeapVector *)yAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:370:1: note: method 'zAxis' declared here+ (LeapVector *)zAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'left' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:377:1: note: method 'left' declared here+ (LeapVector *)left;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'right' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:384:1: note: method 'right' declared here+ (LeapVector *)right;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'down' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:391:1: note: method 'down' declared here+ (LeapVector *)down;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'up' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:398:1: note: method 'up' declared here+ (LeapVector *)up;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'forward' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:405:1: note: method 'forward' declared here+ (LeapVector *)forward;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'backward' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:412:1: note: method 'backward' declared here+ (LeapVector *)backward;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:477:1: note: method 'initWithAxis:angleRadians:' declared here- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:translation:' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:489:1: note: method 'initWithAxis:angleRadians:translation:' declared here- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians translation:(const LeapVector *)translation;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'identity' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:587:1: note: method 'identity' declared here+ (LeapMatrix *)identity;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:15: error: use of undeclared identifier 'Leap'        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;              ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:57: error: use of undeclared identifier 'Leap'        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;                                                        ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Pointable(*castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Pointable(*castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:11: error: use of undeclared identifier 'Leap'    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;          ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:53: error: use of undeclared identifier 'Leap'    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;                                                    ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:473:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable;           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:478:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->id();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:483:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->tipPosition().x y:_interfacePointable->tipPosition().y z:_interfacePointable->tipPosition().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:488:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->tipVelocity().x y:_interfacePointable->tipVelocity().y z:_interfacePointable->tipVelocity().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:493:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->direction().x y:_interfacePointable->direction().y z:_interfacePointable->direction().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:498:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->width();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:503:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->length();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:508:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->isFinger();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:513:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->isTool();           ^fatal error: too many errors emitted, stopping now [-ferror-limit=]14 warnings and 20 errors generated.34(36%IDEClangDiagnosticActivityLogMessage2@40"Method definition for 'cross:' not found-431156341#18446744073709551615#0#1(2@29"Method 'cross:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^306#0#306#0#11113#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'zero' not found-431156341#18446744073709551615#0#1(2@27"Method 'zero' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^348#0#348#0#12344#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'xAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'xAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^355#0#355#0#12468#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'yAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'yAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^362#0#362#0#12593#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'zAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'zAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^369#0#369#0#12718#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'left' not found-431156341#18446744073709551615#0#1(2@27"Method 'left' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^376#0#376#0#12876#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'right' not found-431156341#18446744073709551615#0#1(2@28"Method 'right' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^383#0#383#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'down' not found-431156341#18446744073709551615#0#1(2@27"Method 'down' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^390#0#390#0#13192#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@36"Method definition for 'up' not found-431156341#18446744073709551615#0#1(2@25"Method 'up' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^397#0#397#0#13344#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@41"Method definition for 'forward' not found-431156341#18446744073709551615#0#1(2@30"Method 'forward' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^404#0#404#0#13505#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@42"Method definition for 'backward' not found-431156341#18446744073709551615#0#1(2@31"Method 'backward' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^411#0#411#0#13672#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@60"Method definition for 'initWithAxis:angleRadians:' not found-431156341#18446744073709551615#0#1(2@49"Method 'initWithAxis:angleRadians:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^476#0#476#0#15732#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@72"Method definition for 'initWithAxis:angleRadians:translation:' not found-431156341#18446744073709551615#0#1(2@61"Method 'initWithAxis:angleRadians:translation:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^488#0#488#0#16225#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@42"Method definition for 'identity' not found-431156341#18446744073709551615#0#1(2@31"Method 'identity' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^586#0#586#0#19461#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^431#14#431#14#13374#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^431#56#431#56#13416#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^433#12#433#12#13500#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^433#38#433#38#13526#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^436#12#436#12#13648#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^436#38#436#38#13674#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^439#12#439#12#13761#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^439#38#439#38#13787#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^450#10#450#10#14007#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^450#52#450#52#14049#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^472#11#472#11#14547#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^477#11#477#11#14598#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^482#41#482#41#14699#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^487#41#487#41#14890#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^492#41#492#41#15079#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^497#11#497#11#15221#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^502#11#502#11#15283#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^507#11#507#11#15347#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^512#11#512#11#15411#0#14"Semantic Issue--2@37"Too many errors emitted, stopping now-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation4@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^3319"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o Jump/LeapObjectiveC.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7 -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-ditkaakpxvtxgfcccgiwtunuhdpo/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/LeapObjectiveC.o36"80C93A95-10B2-41BF-9E13-09130A8E4457-
+bC78AD373-B27E-4BC5-8DE2-5AA098C598D6
+
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o /Users/matt/Projects/ios/Jump/Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s431132348.135803
-e431132348.178093
+s431169105.901835
+e431169106.006535
 r1
 xCompileC
 xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o
@@ -337,8 +758,9 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/matt/Projects/ios/Jump/Jump/Jump.m
 d/Users/matt/Projects/ios/Jump/Jump/Jump.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m162"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler36e922bc8eb2b941^18982dbc8eb2b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3144"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o36"1766CDE7-A280-47A8-AE7F-EE2008158383-
-b38595474-F31E-40A7-A77A-3B5860601612
+d/Users/matt/Projects/ios/Jump/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Jump.m162"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler7d22e7511eb3b941^cdac01521eb3b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Jump.m0000000000000000^3144"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o Jump/Jump.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.dia -c /Users/matt/Projects/ios/Jump/Jump/Jump.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.o36"9829CB15-96D1-4F9F-A1AF-52B84BE40044-
+b95FFC7C5-B636-41ED-AACC-42A6C96A35CA
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s431128315.315384
@@ -355,6 +777,22 @@ d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.m
 d/Users/matt/Projects/ios/Jump/Jump/JumpLeap.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m170"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o Jump/JumpLeap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler360251fb7eb2b941^8dd057fb7eb2b941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/matt/Projects/ios/Jump/Jump/JumpLeap.m0000000000000000^3168"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o Jump/JumpLeap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.dia -c /Users/matt/Projects/ios/Jump/Jump/JumpLeap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/JumpLeap.o36"F58D97BE-BD44-473A-8DB2-D98E03CD273B-
 b9745C6B6-0FED-4EEE-860A-1C5167893F11
+
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o /Users/matt/Projects/ios/Jump/Jump/Leap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431177454.568273
+e431177454.656954
+r1
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o
+x/Users/matt/Projects/ios/Jump/Jump/Leap.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/Leap.m
+d/Users/matt/Projects/ios/Jump/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/matt/Projects/ios/Jump/Jump/Leap.m162"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o Jump/Leap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0aa391ee3eb3b941^8c2da8ee3eb3b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/matt/Projects/ios/Jump/Jump/Leap.m0000000000000000^3144"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o Jump/Leap.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-hbtgyiqnvnzixugykonfilplpnba/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.dia -c /Users/matt/Projects/ios/Jump/Jump/Leap.m -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Leap.o36"81B439F5-9165-48E7-929C-C393504AC7DB-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s431129936.393528
@@ -374,59 +812,242 @@ d/Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapMath.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm194"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler95f0645085b2b941^397d255185b2b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm0000000000000000^3344"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o Jump/LeapObjC/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjC/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o36"0FD935DA-9780-46EF-91C2-6B66F63B0D5E-
 b3FC3CD96-FEDF-4144-9DAB-FA5FDA91AF63
 
+CCompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431156341.298287
+e431156341.418530
+r0
+xCompileC
+xbuild/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o
+x/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+xnormal
+xarmv7s
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm
+d/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'cross:' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:307:1: note: method 'cross:' declared here
+o- (LeapVector *)cross:(const LeapVector *)vector;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zero' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:349:1: note: method 'zero' declared here
+o+ (LeapVector *)zero;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'xAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:356:1: note: method 'xAxis' declared here
+o+ (LeapVector *)xAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'yAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:363:1: note: method 'yAxis' declared here
+o+ (LeapVector *)yAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zAxis' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:370:1: note: method 'zAxis' declared here
+o+ (LeapVector *)zAxis;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'left' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:377:1: note: method 'left' declared here
+o+ (LeapVector *)left;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'right' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:384:1: note: method 'right' declared here
+o+ (LeapVector *)right;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'down' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:391:1: note: method 'down' declared here
+o+ (LeapVector *)down;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'up' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:398:1: note: method 'up' declared here
+o+ (LeapVector *)up;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'forward' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:405:1: note: method 'forward' declared here
+o+ (LeapVector *)forward;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'backward' not found [-Wincomplete-implementation]
+o@implementation LeapVector
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:412:1: note: method 'backward' declared here
+o+ (LeapVector *)backward;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:477:1: note: method 'initWithAxis:angleRadians:' declared here
+o- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:translation:' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:489:1: note: method 'initWithAxis:angleRadians:translation:' declared here
+o- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians translation:(const LeapVector *)translation;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'identity' not found [-Wincomplete-implementation]
+o@implementation LeapMatrix
+o                ^
+oIn file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:587:1: note: method 'identity' declared here
+o+ (LeapMatrix *)identity;
+o^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:15: error: use of undeclared identifier 'Leap'
+o        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;
+o              ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:57: error: use of undeclared identifier 'Leap'
+o        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;
+o                                                        ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:13: error: use of undeclared identifier '_interfacePointable'
+o            _interfacePointable = new Leap::Pointable(*castedPointable);
+o            ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:39: error: use of undeclared identifier 'Leap'
+o            _interfacePointable = new Leap::Pointable(*castedPointable);
+o                                      ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:11: error: use of undeclared identifier 'Leap'
+o    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;
+o          ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:53: error: use of undeclared identifier 'Leap'
+o    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;
+o                                                    ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:473:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable;
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:478:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->id();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:483:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->tipPosition().x y:_interfacePointable->tipPosition().y z:_interfacePointable->tipPosition().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:488:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->tipVelocity().x y:_interfacePointable->tipVelocity().y z:_interfacePointable->tipVelocity().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:493:42: error: use of undeclared identifier '_interfacePointable'
+o    return [[LeapVector alloc] initWithX:_interfacePointable->direction().x y:_interfacePointable->direction().y z:_interfacePointable->direction().z];
+o                                         ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:498:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->width();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:503:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->length();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:508:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->isFinger();
+o           ^
+o/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:513:12: error: use of undeclared identifier '_interfacePointable'
+o    return _interfacePointable->isTool();
+o           ^
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o14 warnings and 20 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm185"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o Jump/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler40844c75ecb2b941^e7196b75ecb2b941^-9957"/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'cross:' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:307:1: note: method 'cross:' declared here- (LeapVector *)cross:(const LeapVector *)vector;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zero' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:349:1: note: method 'zero' declared here+ (LeapVector *)zero;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'xAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:356:1: note: method 'xAxis' declared here+ (LeapVector *)xAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'yAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:363:1: note: method 'yAxis' declared here+ (LeapVector *)yAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'zAxis' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:370:1: note: method 'zAxis' declared here+ (LeapVector *)zAxis;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'left' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:377:1: note: method 'left' declared here+ (LeapVector *)left;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'right' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:384:1: note: method 'right' declared here+ (LeapVector *)right;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'down' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:391:1: note: method 'down' declared here+ (LeapVector *)down;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'up' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:398:1: note: method 'up' declared here+ (LeapVector *)up;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'forward' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:405:1: note: method 'forward' declared here+ (LeapVector *)forward;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:23:17: warning: method definition for 'backward' not found [-Wincomplete-implementation]@implementation LeapVector                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:412:1: note: method 'backward' declared here+ (LeapVector *)backward;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:477:1: note: method 'initWithAxis:angleRadians:' declared here- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'initWithAxis:angleRadians:translation:' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:489:1: note: method 'initWithAxis:angleRadians:translation:' declared here- (id)initWithAxis:(const LeapVector *)axis angleRadians:(float)angleRadians translation:(const LeapVector *)translation;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:229:17: warning: method definition for 'identity' not found [-Wincomplete-implementation]@implementation LeapMatrix                ^In file included from /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:9:/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h:587:1: note: method 'identity' declared here+ (LeapMatrix *)identity;^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:15: error: use of undeclared identifier 'Leap'        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;              ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:432:57: error: use of undeclared identifier 'Leap'        const Leap::Pointable *castedPointable = (const Leap::Pointable *)pointable;                                                        ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:434:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Finger(*(const Leap::Finger *)castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:437:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Tool(*(const Leap::Tool *)castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:13: error: use of undeclared identifier '_interfacePointable'            _interfacePointable = new Leap::Pointable(*castedPointable);            ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:440:39: error: use of undeclared identifier 'Leap'            _interfacePointable = new Leap::Pointable(*castedPointable);                                      ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:11: error: use of undeclared identifier 'Leap'    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;          ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:451:53: error: use of undeclared identifier 'Leap'    const Leap::Pointable *castedPointable = (const Leap::Pointable *)leapPointable;                                                    ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:473:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable;           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:478:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->id();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:483:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->tipPosition().x y:_interfacePointable->tipPosition().y z:_interfacePointable->tipPosition().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:488:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->tipVelocity().x y:_interfacePointable->tipVelocity().y z:_interfacePointable->tipVelocity().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:493:42: error: use of undeclared identifier '_interfacePointable'    return [[LeapVector alloc] initWithX:_interfacePointable->direction().x y:_interfacePointable->direction().y z:_interfacePointable->direction().z];                                         ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:498:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->width();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:503:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->length();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:508:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->isFinger();           ^/Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm:513:12: error: use of undeclared identifier '_interfacePointable'    return _interfacePointable->isTool();           ^fatal error: too many errors emitted, stopping now [-ferror-limit=]14 warnings and 20 errors generated.34(36%IDEClangDiagnosticActivityLogMessage2@40"Method definition for 'cross:' not found-431156341#18446744073709551615#0#1(2@29"Method 'cross:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^306#0#306#0#11113#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'zero' not found-431156341#18446744073709551615#0#1(2@27"Method 'zero' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^348#0#348#0#12344#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'xAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'xAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^355#0#355#0#12468#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'yAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'yAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^362#0#362#0#12593#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'zAxis' not found-431156341#18446744073709551615#0#1(2@28"Method 'zAxis' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^369#0#369#0#12718#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'left' not found-431156341#18446744073709551615#0#1(2@27"Method 'left' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^376#0#376#0#12876#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@39"Method definition for 'right' not found-431156341#18446744073709551615#0#1(2@28"Method 'right' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^383#0#383#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@38"Method definition for 'down' not found-431156341#18446744073709551615#0#1(2@27"Method 'down' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^390#0#390#0#13192#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@36"Method definition for 'up' not found-431156341#18446744073709551615#0#1(2@25"Method 'up' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^397#0#397#0#13344#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@41"Method definition for 'forward' not found-431156341#18446744073709551615#0#1(2@30"Method 'forward' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^404#0#404#0#13505#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@42"Method definition for 'backward' not found-431156341#18446744073709551615#0#1(2@31"Method 'backward' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^411#0#411#0#13672#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^22#16#22#16#1038#0#14"Semantic Issue--2@60"Method definition for 'initWithAxis:angleRadians:' not found-431156341#18446744073709551615#0#1(2@49"Method 'initWithAxis:angleRadians:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^476#0#476#0#15732#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@72"Method definition for 'initWithAxis:angleRadians:translation:' not found-431156341#18446744073709551615#0#1(2@61"Method 'initWithAxis:angleRadians:translation:' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^488#0#488#0#16225#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@42"Method definition for 'identity' not found-431156341#18446744073709551615#0#1(2@31"Method 'identity' declared here-431156341#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@58"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.h0000000000000000^586#0#586#0#19461#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^228#16#228#16#5788#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^431#14#431#14#13374#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^431#56#431#56#13416#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^433#12#433#12#13500#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^433#38#433#38#13526#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^436#12#436#12#13648#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^436#38#436#38#13674#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^439#12#439#12#13761#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^439#38#439#38#13787#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^450#10#450#10#14007#0#14"Semantic Issue--2@35"Use of undeclared identifier 'Leap'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^450#52#450#52#14049#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^472#11#472#11#14547#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^477#11#477#11#14598#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^482#41#482#41#14699#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^487#41#487#41#14890#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^492#41#492#41#15079#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^497#11#497#11#15221#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^502#11#502#11#15283#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^507#11#507#11#15347#0#14"Semantic Issue--2@50"Use of undeclared identifier '_interfacePointable'-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^512#11#512#11#15411#0#14"Semantic Issue--2@37"Too many errors emitted, stopping now-431156341#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation4@59"file:///Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm0000000000000000^3326"CompileC build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o Jump/LeapObjectiveC.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Projects/ios/Jump    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-generated-files.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-own-target-headers.hmap -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-all-target-headers.hmap -iquote /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Jump-project-headers.hmap -I/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include -I/Users/matt/Projects/ios/Jump/Pods/Headers -I/Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources/armv7s -I/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/DerivedSources -F/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -isystem /Users/matt/Projects/ios/Jump/Pods/Headers -isystem /Users/matt/Projects/ios/Jump/Pods/Headers/CocoaAsyncSocket -include /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-fvoypkgnstretcabevjaqjjoohys/Jump-Prefix.pch -MMD -MT dependencies -MF /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.d --serialize-diagnostics /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.dia -c /Users/matt/Projects/ios/Jump/Jump/LeapObjectiveC.mm -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/LeapObjectiveC.o36"3A6522B4-6787-4DD6-BB1B-8652ED827F72-
+bC78AD373-B27E-4BC5-8DE2-5AA098C598D6
+
 CCreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64
-s431132348.195919
-e431132348.225959
+s431177454.696867
+e431177454.771377
 r1
 xCreateUniversalBinary
 x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a
 xnormal
 xarmv7 armv7s arm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Create universal binary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a171"CreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64eb5732bc8eb2b941^c2d939bc8eb2b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a0000000000000000^754"CreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64    cd /Users/matt/Projects/ios/Jump    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a -o /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a36"5ACDD1B0-2EF8-48E3-B391-962076083E6F-
-b38595474-F31E-40A7-A77A-3B5860601612
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Create universal binary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a171"CreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64a48ab2ee3eb3b941^257ac5ee3eb3b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a0000000000000000^754"CreateUniversalBinary /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a normal armv7\ armv7s\ arm64    cd /Users/matt/Projects/ios/Jump    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a -o /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/libJump.a36"B59F69E3-BD70-4C5B-952F-2A66DB5083BB-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64
-s431132348.184677
-e431132348.191307
+s431177454.661550
+e431177454.696458
 r1
 xLibtool
 x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a
 xnormal
 xarm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm6494"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm6405872fbc8eb2b941^e4f930bc8eb2b941^---0#0#1#--789"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.LinkFileList -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a36"2F6442E4-4FF2-42A3-9FEA-5E48AD506B0E-
-b38595474-F31E-40A7-A77A-3B5860601612
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm6494"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm641781a9ee3eb3b941^454bb2ee3eb3b941^---0#0#1#--876"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a normal arm64    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -L/Users/matt/Projects/ios/Jump/Pods/build/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/Jump.LinkFileList -lPods-Jump-CocoaAsyncSocket -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/arm64/libJump.a36"C1B4F603-3EDD-4CE1-BFA7-66EC2E17CEF7-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7
-s431132348.184297
-e431132348.190283
+s431177454.661291
+e431177454.694772
 r1
 xLibtool
 x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a
 xnormal
 xarmv7
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv794"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv747552fbc8eb2b941^91b730bc8eb2b941^---0#0#1#--789"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.LinkFileList -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a36"BFF0379D-B007-436F-9987-C0CD60D0ADA3-
-b38595474-F31E-40A7-A77A-3B5860601612
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv794"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv77270a9ee3eb3b941^83dcb1ee3eb3b941^---0#0#1#--876"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a normal armv7    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -L/Users/matt/Projects/ios/Jump/Pods/build/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/Jump.LinkFileList -lPods-Jump-CocoaAsyncSocket -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7/libJump.a36"B778B8FF-5615-4AB5-9295-7C96419A04CE-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CLibtool /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s
-s431132348.184492
-e431132348.195283
+s431177454.661429
+e431177454.695891
 r1
 xLibtool
 x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a
 xnormal
 xarmv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s96"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7sac742fbc8eb2b941^50ff31bc8eb2b941^---0#0#1#--794"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.LinkFileList -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a36"3E454D43-404E-4664-97D1-3E80470092A7-
-b38595474-F31E-40A7-A77A-3B5860601612
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s96"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7sb474a9ee3eb3b941^3e26b2ee3eb3b941^---0#0#1#--881"Libtool build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a normal armv7s    cd /Users/matt/Projects/ios/Jump    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos -L/Users/matt/Projects/ios/Jump/Pods/build/Debug-iphoneos -filelist /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/Jump.LinkFileList -lPods-Jump-CocoaAsyncSocket -framework Foundation -lPods-Jump -o /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Objects-normal/armv7s/libJump.a36"95300728-ADE4-4AB1-93D7-2EA67DD8A8A5-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CPBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
-s431131596.240011
-e431131596.244284
+s431165878.935840
+e431165878.937354
 r1
 xPBXCp
 xJump/Jump.h
 x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h149"PBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.hf99e3dcc8bb2b941^b9893ecc8bb2b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h0000000000000000^466"PBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"888641FD-0D21-46D4-9400-100D0581DB79-
-b5391849D-CB85-434A-B66E-4EF813ADBB94
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h149"PBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h31b7efb611b3b941^69ffefb611b3b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h0000000000000000^466"PBXCp Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Jump.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/Jump.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"0A31C426-30C9-49E7-80A5-86B4EF583039-
+b28D9C177-976C-43E9-93E7-D0AAE33277D2
+
+CPBXCp Jump/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
+s431169106.127775
+e431169106.129132
+r1
+xPBXCp
+xJump/Leap.h
+x/Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h149"PBXCp Jump/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h6adb20521eb3b941^a60f21521eb3b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h0000000000000000^466"PBXCp Jump/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h    cd /Users/matt/Projects/ios/Jump    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/matt/Projects/ios/Jump/Jump/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump36"05C529ED-B09E-4767-ACE2-FB03359DF702-
+b95FFC7C5-B636-41ED-AACC-42A6C96A35CA
 
 CPBXCp Jump/LeapObjC/Leap.h /Users/matt/Library/Developer/Xcode/DerivedData/Jump-dsccymqnfkapmdgjtivzgwhohcar/Build/Products/Debug-iphoneos/include/Jump/Leap.h
 s431127357.815786
@@ -459,18 +1080,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Copy /
 bCC395F82-D397-41DA-9CE1-0BBCB50E1F37
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
-s431132348.122386
-e431132348.134501
+s431177454.556374
+e431177454.566761
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'125"PhaseScriptExecution Check\ Pods\ Manifest.lock build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.shaa9b1fbc8eb2b941^826f22bc8eb2b941^---0#0#1#--286"PhaseScriptExecution Check\ Pods\ Manifest.lock build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh    cd /Users/matt/Projects/ios/Jump    /bin/sh -c /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh36"EFB5B847-2B0E-4138-9B89-3E662B7914C0-
-b38595474-F31E-40A7-A77A-3B5860601612
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'125"PhaseScriptExecution Check\ Pods\ Manifest.lock build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sha2b58eee3eb3b941^1a1891ee3eb3b941^---0#0#1#--286"PhaseScriptExecution Check\ Pods\ Manifest.lock build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh    cd /Users/matt/Projects/ios/Jump    /bin/sh -c /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-3D9BC092B6C1473D9F7E2B34.sh36"B3EFF628-D89B-4CF2-848F-D9895CECE2D9-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh
-s431132348.226941
-e431132348.286849
+s431177454.772344
+e431177454.831955
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -479,8 +1100,8 @@ obuilding file list ... done
 o
 osent 29 bytes  received 20 bytes  98.00 bytes/sec
 ototal size is 0  speedup is 0.00
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'120"PhaseScriptExecution Copy\ Pods\ Resources build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.shbf613abc8eb2b941^766f49bc8eb2b941^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-431132348#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-431132348#29#50#-0#-----2@33"total size is 0  speedup is 0.00-431132348#79#33#-0#-----0#0#1#--281"PhaseScriptExecution Copy\ Pods\ Resources build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh    cd /Users/matt/Projects/ios/Jump    /bin/sh -c /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh36"7616E0FF-C31C-4536-BA3A-26D2C44F88F0-
-b38595474-F31E-40A7-A77A-3B5860601612
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'120"PhaseScriptExecution Copy\ Pods\ Resources build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh1efbc5ee3eb3b941^40fcd4ee3eb3b941^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-431177454#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-431177454#29#50#-0#-----2@33"total size is 0  speedup is 0.00-431177454#79#33#-0#-----0#0#1#--281"PhaseScriptExecution Copy\ Pods\ Resources build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh    cd /Users/matt/Projects/ios/Jump    /bin/sh -c /Users/matt/Projects/ios/Jump/build/Jump.build/Debug-iphoneos/Jump.build/Script-E5988FF6B56D4B2A9175AF77.sh36"01C99A9D-84AC-405C-92AA-24CD4386E06B-
+b57B189FA-3D9A-479C-BC6B-F471D6F0A880
 
 CProcessPCH /var/folders/q4/8yzz5sdn61lgxr50pchl80qr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Jump-Prefix-apjwwrfeyppbkadpfyhwjdqiofjh/Jump-Prefix.pch.pch Jump/Jump-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s431121677.235339
